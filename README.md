@@ -89,8 +89,8 @@ log1p target → expm1 predictions → submission.csv
 
 | Model | CV RMSE (log scale) | MAE (log scale) | R² |
 |-------|--------------------|-----------------|----|
-| XGBoost | ~0.127 | ~0.085 | ~0.906 |
-| LightGBM | ~0.129 | ~0.087 | ~0.903 |
+| XGBoost | ~0.0.117 | ~0.080 | ~0.0.911 |
+| LightGBM | ~0.122 | ~0.0.083 | ~0.903 |
 
 > Metrics are on **log-transformed** SalePrice. The best model was selected based on 5-fold cross-validated RMSE and retrained on the full training set for final submission.
 
