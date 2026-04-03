@@ -1,0 +1,49 @@
+# ── Data files (download from Kaggle) ────────────────────────────────────────
+data/
+*.csv
+*.xlsx
+
+# ── Jupyter Notebook artifacts ────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── Model artifacts (optional — add if you save models to disk) ───────────────
+# models/
+# *.pkl
+# *.joblib
+# *.json   ← uncomment if saving XGB/LGB models as JSON
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
