@@ -33,7 +33,7 @@ Predict the final sale price of homes in Ames, Iowa based on 79 explanatory feat
 ---
 
 ## 🗂️ Repository Structure
-...
+
 house-price-prediction/
 │
 ├── notebook/
@@ -53,7 +53,7 @@ house-price-prediction/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-...
+
 
 > **Note:** The `data/` folder is excluded from git by default. Download the dataset from [Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) and place it in a `data/` directory.
 
