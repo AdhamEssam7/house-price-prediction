@@ -115,7 +115,7 @@ log1p target → expm1 predictions → submission.csv
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/house-price-prediction.git
+git clone https://github.com/AdhamEssam7/house-price-prediction.git
 cd house-price-prediction
 ```
 
